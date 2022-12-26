@@ -8,8 +8,7 @@ $user_login = get_userdata($user_id)->user_login;
 $ticket_submitted_by = get_post_meta($ticket_id, 'djs_ticket_submitted_ticket_by', true);
 
 
-$ticket_reply = $_POST['submit_reply'];
-if (isset($ticket_reply)) {
+if (isset($_POST['submit_reply'])) {
     if (wp_verify_nonce($_POST['djs_ticket_submit_ticket_reply_nonce'], 'djs_ticket_submit_ticket_reply')) {
         $op_status = wp_insert_post(array(
             'post_content' => sanitize_textarea_field($_POST['ticket_content']),
