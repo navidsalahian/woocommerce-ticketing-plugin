@@ -1,4 +1,4 @@
-# woocommerce ticketing plugin
+# Woocommerce Ticketing Plugin
 This plugin has created by **Navid Salahian** from DeljooSoft copmany.
 The version 1.0.0 is free to use, however you do not allow to sale and publish this plugin in any commercial cases.
 This plugin can add some capablilties and features to my-account page in woocommerce such as 
