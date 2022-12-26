@@ -1,0 +1,248 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jc-center{
+    justify-content: center;
+}
+.list-reset{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.upload-images{
+    display: flex;
+    align-items: center;
+}
+.upload-images li{
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    background: #dfdcdc;
+    padding: 5px 8px;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: #46505a;
+}
+.upload-images li .dashicons{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.upload-images li a{
+    color: #46505a;
+    text-decoration: none !important;
+}
+.ticket-content{
+    margin: 15px 0;
+    font-weight: 600;
+}
+li.ticket-item.response {
+    background: #c5efba;
+    margin-left: 20px;
+}
+li.ticket-item {
+    padding: 20px;
+    background: #eee;
+    margin-bottom: 10px;
+}
+ul.ticket-items {
+    margin: 0;
+    list-style: none;
+}
+li.ticket-item .ticket-info {
+    font-size: 13px;
+}
+li.ticket-item .ticket-info .date {
+    margin-right: 8px;
+}
+li.ticket-item .ticket-info .time {
+    margin-right: 16px;
+}
+li.ticket-item .ticket-info .id {
+    margin-right: 10px;
+    padding: 0px 5px;
+    color: #767171;
+    font-size: 12px;
+    border-radius: 4px;
+}
+li.ticket-item span.id {
+    background: #ddd;
+}
+li.ticket-item.response span.id {
+    background: #96d386;
+}
+.ticket-content .info{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.ticket-content .info .open {
+    padding: 3px 6px;
+    background: #faa6a6;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+.ticket-content .info .replied{
+    padding: 3px 6px;
+    background: #c5efba;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+.ticket-content .info .close{
+    padding: 3px 6px;
+    background: #eee;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+.ticket-content .info .in-progress{
+    padding: 3px 6px;
+    background: #faf5bb;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+.mb-1{
+    margin-bottom: 5px;
+}
+.mb-2{
+    margin-bottom: 10px;
+}
+.mb-3{
+    margin-bottom: 15px;
+}
+.mb-4{
+    margin-bottom: 20px;
+}
+.mb-5{
+    margin-bottom: 25px;
+}
+.mb-6{
+    margin-bottom: 30px;
+}
+.mb-7{
+    margin-bottom: 40px;
+}
+.mb-8{
+    margin-bottom: 50px;
+}
+.mb-9{
+    margin-bottom: 60px;
+}
+.mt-1{
+    margin-top: 5px;
+}
+.mt-2{
+    margin-top: 10px;
+}
+.mt-3{
+    margin-top: 15px;
+}
+.mt-4{
+    margin-top: 20px;
+}
+.mt-5{
+    margin-top: 25px;
+}
+.mt-6{
+    margin-top: 30px;
+}
+.mt-7{
+    margin-top: 40px;
+}
+.mt-8{
+    margin-top: 50px;
+}
+.mt-9{
+    margin-top: 60px;
+}
+.mx-1{
+    margin: 5px auto;
+}
+.mx-2{
+    margin: 10px auto;
+}
+.mx-3{
+    margin: 15px auto;
+}
+.mx-4{
+    margin: 20px auto;
+}
+.mx-5{
+    margin: 25px auto;
+}
+.mx-6{
+    margin: 30px auto;
+}
+.mx-7{
+    margin: 40px auto;
+}
+.mx-8{
+    margin: 50px auto;
+}
+.mx-9{
+    margin: 60px auto;
+}
+.center{
+    text-align: center;
+}
+input[name*='djs_submit_reply_ticket_admin']{
+    margin-top: 25px !important;
+    text-align: right;
+}
+.cursor-forbidden{
+    cursor: not-allowed;
+}
+td span.ticket_status{
+    width: 80px;
+    display: inline-flex;
+    justify-content: center;
+}
+td span.in_progress{
+    background: #ef84d3;
+    color: #5c1e58;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+td span.closed{
+    background: #424242;
+    color: #f3f3f3;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+td span.open{
+    background: #f4ff49;
+    color: #276826;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+td span.replied{
+    background: #87ff79;
+    color: #1f661d;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+.djs-snackbar{
+    position: fixed;
+    padding: 20px;
+    width: 500px;
+    bottom: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.5s all ease;
+    left: 50%;
+    transform: translate(-50%, 80px);
+}
+.djs-snackbar.success{
+    background: #44e96f;
+    color: #2b4430;
+}
+.djs-snackbar.danger{
+    background: #e94444;
+    color: #341717;
+}
+.djs-snackbar.active{
+    transform: translate(-50%, -30px);
+}
+.djs-snackbar .dashicons{
+    margin-right: 4px;
+}
